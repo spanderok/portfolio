@@ -1,8 +1,9 @@
 import React from 'react';
+import Class from "./Content.module.css";
 
 const Content = () => {
     return (
-        <div className='content'>
+        <div className={Class.content}>
             content
         </div>
     );
