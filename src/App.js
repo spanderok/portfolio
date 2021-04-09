@@ -14,7 +14,7 @@ const App = () => {
         <Header />
         <MainMenu />
         <div className='app-wrapper-content'>
-          <Route path='/aboutMe' component={AboutMe} />
+          <Route path='/about_me' component={AboutMe} />
           <Route path='/space_station' component={SpaceStation} />
         </div>
         <Footer />

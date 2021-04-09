@@ -5,7 +5,7 @@ import Class from "./header.module.css";
 const Header = () => {
     return (
         <div className={Class.header}>
-            My portfolio application
+            My portfolio application (React)
         </div>
     );
 }
