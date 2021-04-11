@@ -4,13 +4,12 @@ import { NavLink } from 'react-router-dom';
 
 let aboutMeItems = [
     {id: 'main', content: 'main info'},
-    {id: 'objective'},
-    {id: 'summary'},
-    {id: 'summary'},
-    {id: 'skills '},
-    {id: 'experience'},
-    {id: 'education'},
-    {id: 'additional'}
+    {id: 'objective', content: 'Objective'},
+    {id: 'summary', content: 'Summary'},
+    {id: 'skills', content: 'Skills'},
+    {id: 'experience', content: 'Work experience'},
+    {id: 'education', content: 'Education'},
+    {id: 'additional', content: 'Additional Information'}
 ];
 
 const ItemAboutMe = (props) => {
