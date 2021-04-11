@@ -2,6 +2,17 @@ import React from 'react';
 import Class from "./aboutMe.module.css";
 import { NavLink } from 'react-router-dom';
 
+let aboutMeItems = [
+    {id: 'main', content: 'main info'},
+    {id: 'objective'},
+    {id: 'summary'},
+    {id: 'summary'},
+    {id: 'skills '},
+    {id: 'experience'},
+    {id: 'education'},
+    {id: 'additional'}
+];
+
 const ItemAboutMe = (props) => {
     let path = '/about_me/' + props.id;
     return (
