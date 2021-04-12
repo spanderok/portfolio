@@ -3,19 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-let aboutMeItems = [
-  { id: 'main', content: 'main info' },
-  { id: 'objective', content: 'Objective' },
-  { id: 'summary', content: 'Summary' },
-  { id: 'skills', content: 'Skills' },
-  { id: 'experience', content: 'Work experience' },
-  { id: 'education', content: 'Education' },
-  { id: 'additional', content: 'Additional Information' }
-];
+import State from './redux/state';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App aboutMeItems={aboutMeItems}/>
+    <App aboutMeItems={State.aboutMeItems}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
