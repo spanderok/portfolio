@@ -1,5 +1,5 @@
 .wrapper{
-    color: aquamarine;
+    color: rgb(128, 160, 149);
     display: grid;
     grid-template-columns: 2fr 10fr;
 }

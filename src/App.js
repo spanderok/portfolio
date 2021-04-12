@@ -7,14 +7,15 @@ import AboutMe from './components/content/aboutMe/aboutMe.jsx'
 import SpaceStation from "./components/content/spaceStation/spaceStation.jsx";
 import { BrowserRouter, Route } from 'react-router-dom';
 
-const App = () => {
+
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
         <MainMenu />
         <div className='app-wrapper-content'>
-          <Route path='/about_me' component={AboutMe} />
+          <Route path='/about_me' render={() => <AboutMe aboutMeItems={props.aboutMeItems}/>}/>
           <Route path='/space_station' component={SpaceStation} />
         </div>
         <Footer />
