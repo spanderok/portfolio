@@ -1,14 +1,14 @@
 let State = {
     aboutMeItems: [
-        { id: 'main', content: 'main info' },
-        { id: 'objective', content: 'Objective' },
-        { id: 'summary', content: 'Summary' },
-        { id: 'skills', content: 'Skills' },
-        { id: 'experience', content: 'Work experience' },
-        { id: 'education', content: 'Education' },
-        { id: 'additional', content: 'Additional Information' }
+        { id: 'main', name: 'main info' },
+        { id: 'objective', name: 'Objective' },
+        { id: 'summary', name: 'Summary' },
+        { id: 'skills', name: 'Skills' },
+        { id: 'experience', name: 'Work experience' },
+        { id: 'education', name: 'Education' },
+        { id: 'additional', name: 'Additional Information' }
       ]
 
 };
 
-export default State
+export default State;

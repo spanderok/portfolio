@@ -1,27 +1,22 @@
 import React from 'react';
 import Class from "./aboutMe.module.css";
-import ItemAboutMe from "./aboutParagraph/ItemAboutMe.jsx";
-
-
-
-
 
 const AboutMe = (props) => {
-    let aboutMeItemElements = props.aboutMeItems.map(el => <ItemAboutMe id={el.id} content={el.content}></ItemAboutMe>);
 
     return (
         <div className={Class.wrapper}>
-            <div className={Class.items}>
-                {aboutMeItemElements}
-            </div>
-            <div className={Class.items_content}>
+              <input className={Class.hide} id="hd-1" type="checkbox"></input>
+                <label for="hd-1">Нажмите здесь, чтобы прочитать больше о HTML!</label>
                 <div>
-                    DZMITRY PALYKA
+                    HTML — стандартный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами и отображается в виде документа в удобной для человека форме..
                 </div>
+                <br />
+                <br />
+                <input className={Class.hide} id="hd-2" type="checkbox"></input>
+                <label for="hd-2">Нажмите здесь, чтобы прочитать больше о CSS!</label>
                 <div>
-                    Junior Front-end Developer
-                </div>
-            </div>
+                        CSS - CSS Cascading Style Sheets — каскадные таблицы стилей — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.
+                </div>  
         </div>
     );
 }
