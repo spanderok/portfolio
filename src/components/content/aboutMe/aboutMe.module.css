@@ -7,6 +7,12 @@
     margin: 5% 10%;
 }
 
+
+.wrapper .main .ava img{
+    display: block;
+    width: 200px;
+}
+
 .hide,
 .hide+label~div {
     display: none;
@@ -26,6 +32,10 @@
     color: red;
     border-bottom: 0;
 }
+/* .wrapper .main .hide:checked+label+div {
+    display: grid;
+    grid-template-columns: 13fr 4fr;
+} */
 
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked+label+div {
@@ -40,7 +50,9 @@
     -webkit-animation: fade ease-in 0.5s;
     -moz-animation: fade ease-in 0.5s;
     animation: fade ease-in 0.5s;
+    
 }
+
 
 /* анимация при появлении скрытых блоков */
 @-moz-keyframes fade {
