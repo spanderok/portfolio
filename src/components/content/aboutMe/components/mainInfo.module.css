@@ -6,12 +6,15 @@
     padding: 0 20px;
     margin: 5% 10%;
 }
-
-
+.wrapper .header {
+    display: flex;
+    color: rgb(230, 102, 70);
+    
+}
+.wrapper .main{
+    padding: 20px;
+}
 .wrapper .main .ava img{
     display: block;
     width: 200px;
 }
-
-
-
