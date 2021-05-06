@@ -13,7 +13,7 @@ const MainMenu = () => {
                 <NavLink to='/space_station' activeClassName={Class.active}>Space station</NavLink>
             </div >
             <div className={Class.item}>
-                <NavLink to='/space_station' activeClassName={Class.active}>Space station</NavLink>
+                <NavLink to='/covid' activeClassName={Class.active}>Covid app</NavLink>
             </div>
             <div className={Class.item}>
                 <a href='#'>Game puzzle</a>
