@@ -2,7 +2,12 @@ import React from 'react';
 // import Class from "./aboutMe.module.css";
 // import ava from "../../../assets/ava.jpg";
 // import certificate from "../../../assets/certificate.pdf";
-import MainInfo from "../aboutMe/components/MainInfo";
+import MainInfo from "../aboutMe/components/mainInfo/MainInfo";
+import Objective from "../aboutMe/components/objective/Objective";
+import Summary from "../aboutMe/components/summary/Summary";
+import Skills from "../aboutMe/components/skills/Skills";
+import WorkExperience from "../aboutMe/components/workExperience/WorkExperience";
+import Education from "../aboutMe/components/education/Education";
 
 
 const AboutMe = (props) => {
@@ -11,6 +16,11 @@ const AboutMe = (props) => {
 
         <div>
             <MainInfo/>
+            <Objective/>
+            <Summary/>
+            <Skills/>
+            <WorkExperience/>
+            <Education/>
         </div>
         // <div className={Class.wrapper}>
         //     <input className={Class.hide} id="hd-1" type="checkbox"></input>

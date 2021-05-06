@@ -11,8 +11,10 @@
     color: rgb(230, 102, 70);
     
 }
-
-
-
-
-
+.main{
+    padding: 20px;
+}
+.main .ava img{
+    display: block;
+    width: 200px;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Class from "./mainInfo.module.css";
-import ava from "../../../../assets/ava.jpg";
+import OwnItemsClass from "../../../../content/aboutMe/aboutMe.module.css";
+import ava from "../../../../../assets/ava.jpg";
 
 
 const MainInfo = (props) => {
@@ -20,16 +21,16 @@ const MainInfo = (props) => {
     return (
         <div>
             {!mainInfoState &&
-                <div className={Class.wrapper}>
-                    <div className={Class.header}>
+                <div className={OwnItemsClass.wrapper}>
+                    <div className={OwnItemsClass.header}>
                         <div>Main info</div>
                         <button onClick={activateMainInfo}>More</button>
                     </div>
                 </div>
             }
             {mainInfoState &&
-                <div className={Class.wrapper}> 
-                    <div className={Class.header}>
+                <div className={OwnItemsClass.wrapper}> 
+                    <div className={OwnItemsClass.header}>
                         <div>Main info</div>
                         <button onClick={deactivateMainInfo}>Hide</button>
                     </div>
