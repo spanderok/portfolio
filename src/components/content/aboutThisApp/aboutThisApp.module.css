@@ -1,0 +1,22 @@
+.wrapper{
+    background-image: url('../../../assets/react.jpg');
+    height: 100%;
+    padding: 20px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.wrapper img{
+    width: 500px;
+}
+.wrapper a{
+    color: rgb(197, 214, 214);
+    text-decoration: none;
+}
+.wrapper a:hover{
+    text-decoration: underline;
+    color:rgb(201, 87, 87);
+ 
+}

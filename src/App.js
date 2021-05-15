@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/header/Header.jsx'
 import MainMenu from './components/mainMenu/MainMenu.jsx'
 import Footer from './components/footer/Footer.jsx';
+import AboutThisApp from './components/content/aboutThisApp/aboutThisApp.jsx'
 import AboutMe from './components/content/aboutMe/aboutMe.jsx'
 import SpaceStation from "./components/content/spaceStation/spaceStation.jsx";
 import ComponentForItems from "./components/content/componentForItems/componentForItems.jsx";
@@ -23,6 +24,7 @@ const App = (props) => {
         <Header />
         <MainMenu />
         <div className='app-wrapper-content'>
+          <Route path='/about_this_app' component={AboutThisApp} />
           <Route path='/about_me' render={() => <AboutMe aboutMeItems={props.aboutMeItems}/>}/>
           <Route path='/space_station' component={SpaceStation} />
           <Route path='/covid' render={() => <ComponentForItems itemContent='It was a group project of three people. 

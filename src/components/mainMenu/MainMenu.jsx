@@ -7,6 +7,9 @@ const MainMenu = () => {
     return (
         <div className={Class.mainMenu}>
             <div className={Class.item}>
+                <NavLink to='/about_this_app' activeClassName={Class.active}>About this app</NavLink>
+            </div >
+            <div className={Class.item}>
                 <NavLink to='/about_me' activeClassName={Class.active}>About me</NavLink>
             </div >
             <div className={Class.item}>
