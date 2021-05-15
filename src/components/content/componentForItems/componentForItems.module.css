@@ -1,14 +1,12 @@
 .wrapper{
-    background-image: url('../../../assets/covid.jpg');
     height: 100%;
     padding: 20px;
-    padding-top: 30px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
-    color: cornsilk;
+    color: whitesmoke;
 
 }
-
 .wrapper a{
     color: rgb(197, 214, 214);
     text-decoration: none;

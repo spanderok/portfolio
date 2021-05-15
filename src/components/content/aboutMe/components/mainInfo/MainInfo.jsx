@@ -9,12 +9,10 @@ const MainInfo = (props) => {
     const [mainInfoState, setMainInfoState] = useState(false);
 
     const activateMainInfo = () => {
-
         setMainInfoState(true);
     };
 
     const deactivateMainInfo = () => {
-
         setMainInfoState(false);
     };
 
@@ -29,7 +27,7 @@ const MainInfo = (props) => {
                 </div>
             }
             {mainInfoState &&
-                <div className={OwnItemsClass.wrapper}> 
+                <div className={OwnItemsClass.wrapper}>
                     <div className={OwnItemsClass.header}>
                         <div>Main info</div>
                         <button onClick={deactivateMainInfo}>Hide</button>
@@ -46,7 +44,6 @@ const MainInfo = (props) => {
 
                     </div>
                 </div>
-
             }
         </div>
 
