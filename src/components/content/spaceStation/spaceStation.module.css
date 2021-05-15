@@ -1,0 +1,20 @@
+.wrapper{
+    background-image: url('../../../assets/space.jpeg');
+    height: 100%;
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper li{
+    color: cornsilk;
+}
+.wrapper a{
+    color: rgb(197, 214, 214);
+    text-decoration: none;
+}
+.wrapper a:hover{
+    text-decoration: underline;
+    color:rgb(201, 87, 87);
+ 
+}

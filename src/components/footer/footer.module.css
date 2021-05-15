@@ -1,0 +1,5 @@
+.footer{
+  grid-area: f;
+  background-color: rgba(77, 15, 15, 0.705);
+  text-align: center;
+}

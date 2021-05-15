@@ -1,0 +1,11 @@
+.mainMenu {
+  grid-area: m;
+  background-color: beige;
+  padding: 20px ;
+}
+.mainMenu .active{
+  color: rgb(151, 131, 15);
+}
+.mainMenu a {
+  text-decoration: none;
+}
