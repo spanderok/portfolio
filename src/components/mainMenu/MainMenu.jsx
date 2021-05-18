@@ -36,9 +36,6 @@ const MainMenu = () => {
             <div className={Class.item}>
                 <NavLink to='/presentation' activeClassName={Class.active}>Presentation API</NavLink>
             </div>
-            <div className={Class.item}>
-                <a href='#'>test to brimit</a>
-            </div>
 
         </div>
     );

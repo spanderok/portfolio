@@ -1,5 +1,7 @@
 .header {
   text-align: center;
   grid-area: h;
-  background-color: aqua;
+  background-image: url('../../assets/background-warm-2.jpg');
+  font-weight: 700;
+  font-size: 35px;
 }

@@ -39,8 +39,8 @@ const MainInfo = (props) => {
                         </div>
                         <div>Phone:   +375(29)879-15-36</div>
                         <div>Email:     polykodima@mail.ru</div>
-                        <div>Telegram:   +375(29)879-15-36 </div>
-                        <div>Linkedin:   linkedin.com/in/dzmitry-palyka-83b9a2208</div>
+                        <div><a href="http://t.me/dip_soul">Telegram:   +375(29)879-15-36</a> </div>
+                        <div> <a href="https://www.linkedin.com/in/dzmitry-palyka/">Linkedin:   linkedin.com/in/dzmitry-palyka</a></div>
 
                     </div>
                 </div>

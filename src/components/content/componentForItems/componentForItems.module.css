@@ -14,5 +14,6 @@
 .wrapper a:hover{
     text-decoration: underline;
     color:rgb(201, 87, 87);
+    font-size: 18px;
  
 }
