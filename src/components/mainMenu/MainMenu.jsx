@@ -19,6 +19,9 @@ const MainMenu = () => {
                 <NavLink to='/covid' activeClassName={Class.active}>Covid app</NavLink>
             </div>
             <div className={Class.item}>
+                <NavLink to='/form' activeClassName={Class.active}>Form</NavLink>
+            </div>
+            <div className={Class.item}>
                 <NavLink to='/game_puzzle' activeClassName={Class.active}>Game puzzle</NavLink>
             </div>
             <div className={Class.item}>

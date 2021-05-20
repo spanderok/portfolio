@@ -14,6 +14,7 @@ import backgroundGamePuzzle from "../src/assets/gamePuzzle.jpg";
 import backgroundCovid from "../src/assets/covid-19.jpg";
 import backgroundEnglishForKids from "../src/assets/english_for_kids.jpg";
 import backgroundPresentation from "../src/assets/api.jpg";
+import backgroundForm from "../src/assets/fon-form.jpg";
 import { BrowserRouter, Route } from 'react-router-dom';
 
 
@@ -37,6 +38,15 @@ const App = (props) => {
             itemSource="https://github.com/spanderok/covid/tree/covid-source"
             itemDeploy="https://spanderok.github.io/covid/"
             itemBackground={backgroundCovid }/>}/>
+          <Route path='/form' render={() => <ComponentForItems itemContent='When this form is loaded, 
+          it fills in the fields in accordance with the data from the url. After entering new data into the form and pressing the submit button,
+           the data in the url will be updated.
+            If not all fields are filled in, a modal window will pop up asking you to fill in everything.
+            The application is packaged with a web pack.
+          '
+            itemSource="https://github.com/spanderok/test-task/tree/debugTask"
+            itemDeploy="https://spanderok.github.io/test-task/build/"
+            itemBackground={backgroundForm }/>}/>
           <Route path='/game_puzzle' render={() => <ComponentForItems itemContent='The tag game was written during the course. 
                 Simple layout, a lot of logic, the use of local storage, Data, a solvability check algorithm after random distribution of tags.
                 Of course, the quality of the code requires a huge refactoring)'

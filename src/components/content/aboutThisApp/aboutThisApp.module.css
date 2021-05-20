@@ -20,9 +20,8 @@
     color:rgb(201, 87, 87);
  
 }
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
     .wrapper img{
-        width: 215px;
+        width: 100%;
     }
   }
-  
