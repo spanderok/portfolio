@@ -1,5 +1,6 @@
 .footer{
   grid-area: f;
-  background-color: rgba(77, 15, 15, 0.705);
-  text-align: center;
+  display: flex;
+  background-image: url('../../assets/background-warm-2.jpg');
+  justify-content: space-around;
 }

@@ -1,11 +1,28 @@
 .mainMenu {
   grid-area: m;
-  background-color: beige;
+  background-image: url('../../assets/background-warm-2.jpg');
   padding: 20px ;
 }
 .mainMenu .active{
   color: rgb(151, 131, 15);
 }
+.mainMenu :hover {
+  color: rgb(77, 71, 43);
+  font-size: 21px;
+
+
+}
 .mainMenu a {
   text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+} 
+@media only screen and (max-width : 480px) {
+  .mainMenu{
+      width: 50px;
+      padding-left: 3px;
+  }
+
 }

@@ -7,6 +7,9 @@ const MainMenu = () => {
     return (
         <div className={Class.mainMenu}>
             <div className={Class.item}>
+                <NavLink to='/about_this_app' activeClassName={Class.active}>About this app</NavLink>
+            </div >
+            <div className={Class.item}>
                 <NavLink to='/about_me' activeClassName={Class.active}>About me</NavLink>
             </div >
             <div className={Class.item}>
@@ -16,13 +19,25 @@ const MainMenu = () => {
                 <NavLink to='/covid' activeClassName={Class.active}>Covid app</NavLink>
             </div>
             <div className={Class.item}>
-                <a href='#'>Game puzzle</a>
+                <NavLink to='/form' activeClassName={Class.active}>Form</NavLink>
             </div>
             <div className={Class.item}>
-                <a href='#'>Shelter</a>
+                <NavLink to='/game_puzzle' activeClassName={Class.active}>Game puzzle</NavLink>
             </div>
             <div className={Class.item}>
-                <a href='#'>Momentum</a>
+                <NavLink to='/shelter' activeClassName={Class.active}>Shelter</NavLink>
+            </div>
+            <div className={Class.item}>
+                <NavLink to='/momentum' activeClassName={Class.active}>Momentum</NavLink>
+            </div>
+            <div className={Class.item}>
+                <NavLink to='/webdev' activeClassName={Class.active}>Your life is webdev</NavLink>
+            </div>
+            <div className={Class.item}>
+                <NavLink to='/english_for_kids' activeClassName={Class.active}>English for kids</NavLink>
+            </div>
+            <div className={Class.item}>
+                <NavLink to='/presentation' activeClassName={Class.active}>Presentation API</NavLink>
             </div>
 
         </div>

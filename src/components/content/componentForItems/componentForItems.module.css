@@ -1,0 +1,19 @@
+.wrapper{
+    height: 90%;
+    padding: 20px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+
+}
+.wrapper a{
+    color: rgb(197, 214, 214);
+    text-decoration: none;
+}
+.wrapper a:hover{
+    text-decoration: underline;
+    color:rgb(201, 87, 87);
+    font-size: 18px;
+ 
+}

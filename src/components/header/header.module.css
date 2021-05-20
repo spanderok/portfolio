@@ -1,5 +1,13 @@
 .header {
   text-align: center;
   grid-area: h;
-  background-color: aqua;
+  background-image: url('../../assets/background-warm-2.jpg');
+  font-weight: 700;
+  font-size: 35px;
+}
+@media only screen and (max-width : 480px) {
+  .header {
+     font-size: 22px;
+  };
+
 }

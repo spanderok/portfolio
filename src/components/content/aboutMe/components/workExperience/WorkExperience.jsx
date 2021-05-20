@@ -39,7 +39,7 @@ const WorkExperience = (props) => {
                             <ul>
                                 <li>
                                     01.12.2020 – 01.01.2021 – (teamwork, RS-School)<br/>
-                                    https://rolling-scopes-school.github.io/ferri0-JS2020Q3/covid-19-dashboard/ (may be problems with API)
+                                    https://spanderok.github.io/covid/ 
                                 </li>
                                 <li>
                                     15.01.21 – 10.02.21 - (teamwork with REST Api express.js mongoDB, RS-School) <br/>

@@ -38,13 +38,13 @@ const Skills = (props) => {
                         <div>
                             <ul>
                                 <li>HTML/CSS(Sass)/JavaScript</li>
-                                <li>TypeScript, Canvas (basic knowledge)</li>
+                                <li>React (basic knowledge)</li>
+                                <li>Canvas (basic knowledge)</li>
                                 <li>Git</li>
                                 <li>Webpack (basic knowledge)</li>
                                 <li>Node.js (basic knowledge)</li>
                                 <li>Trello (canban board)</li>
                                 <li>REST APi/ ExpressJs/ Mongo DB (basic knowledge)</li>
-                                <li>React (learning)</li>
                                 <li>Knowledge OOP</li>
                             </ul>
                             <div>English Proficiency:</div>
