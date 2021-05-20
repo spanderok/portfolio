@@ -23,6 +23,14 @@ button:hover{
     background-color: rgb(212, 176, 129);
 }
 
+@media only screen and (max-width : 320px) {
+    .wrapper{
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+
+}
+
 
 
 
